@@ -22,11 +22,13 @@
         components: {Gheader, Gsidebar, todoList}
     }
 </script>
-<style scope>
+<style>
     * {
         padding: 0;
         margin: 0;
+        font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif
     }
+
     .gsidebar {
         width: 300px;
         position: absolute;
@@ -37,13 +39,7 @@
     }
 
     .content {
-        margin: 20px 20px 0px 320px;
+        margin: 20px 10px 0px 310px;
     }
 
-    .gbox {
-        margin: 20px 20px;
-        padding: 10px 10px;
-        background-color: aliceblue;
-        border-radius: 5px;
-    }
 </style>

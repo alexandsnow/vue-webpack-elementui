@@ -1,8 +1,33 @@
 <template>
     <div>
-        <el-row class = "title">
-            <el-col :span="12" :offset="6">
-                <h2>dashboard</h2>
+        <el-row :gutter="20">
+            <el-col :span="6">
+                <el-card class="box-card">
+                    <div class="text item">
+                        <strong>hello</strong>
+                    </div>
+                </el-card>
+            </el-col>
+            <el-col :span="6">
+                <el-card class="box-card">
+                    <div class="text item">
+                        <strong>hello</strong>
+                    </div>
+                </el-card>
+            </el-col>
+            <el-col :span="6">
+                <el-card class="box-card">
+                    <div class="text item">
+                        <strong>hello</strong>
+                    </div>
+                </el-card>
+            </el-col>
+            <el-col :span="6">
+                <el-card class="box-card">
+                    <div class="text item">
+                        <strong>hello</strong>
+                    </div>
+                </el-card>
             </el-col>
         </el-row>
     </div>
@@ -19,10 +44,5 @@
 </script>
 
 <style scope>
-    .title{
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 30px;
-        font-weight: bolder;
-    }
+
 </style>
