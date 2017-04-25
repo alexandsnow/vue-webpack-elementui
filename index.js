@@ -9,8 +9,9 @@ import Element from "element-ui";
 import 'element-ui/lib/theme-default/index.css';
 import App from "./main.vue";
 
-import todoList from './components/tolist.vue'
 import dashboard from './components/dashboard.vue'
+import addTask from './components/addTask.vue'
+import taskList from './components/taskList.vue'
 
 
 
@@ -23,8 +24,12 @@ const router = new VueRouter({
             component: dashboard
         },
         {
-            path: "/todo",
-            component: todoList
+            path: "/addTask",
+            component: addTask
+        },
+        {
+            path: "/taskList",
+            component: taskList
         },
 
     ]

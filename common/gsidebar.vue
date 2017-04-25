@@ -6,8 +6,8 @@
                 <template slot="title"><i class="el-icon-star-on"></i><strong>Application</strong></template>
                 <el-menu-item-group>
                     <template slot="title"><strong>Todo List</strong></template>
-                    <el-menu-item index="2-1"><router-link to="/todo"><strong>todo</strong></router-link></el-menu-item>
-                    <el-menu-item index="2-2"><strong>done</strong></el-menu-item>
+                    <el-menu-item index="2-1"><router-link to="/addTask"><strong>Add Task</strong></router-link></el-menu-item>
+                    <el-menu-item index="2-2"><router-link to="/taskList"><strong>Todo List</strong></router-link></el-menu-item>
                 </el-menu-item-group>
                 <el-menu-item-group title="分组2">
                     <el-menu-item index="2-3">选项3</el-menu-item>

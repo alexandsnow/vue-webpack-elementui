@@ -1,5 +1,5 @@
 <template>
-    <div class="gheader">
+    <div>
         <el-menu theme="dark" default-active="2" class="el-menu-demo" mode="horizontal">
             <el-menu-item index="1">处理中心</el-menu-item>
             <el-submenu index="2">
@@ -27,7 +27,4 @@
     }
 </script>
 <style scope>
-    .gheader {
-        height: 50px;
-    }
 </style>
