@@ -17,7 +17,12 @@
             <template slot="title">Report</template>
             <el-menu-item index="4-1">Report Record</el-menu-item>
             <el-menu-item index="4-2"><router-link to="/test">Export</router-link></el-menu-item>
+          </el-submenu>
 
+          <el-submenu index="5">
+            <template slot="title">API</template>
+            <el-menu-item index="5-1"><router-link to="/apiInfo">Query</router-link></el-menu-item>
+            <el-menu-item index="5-2">Export</el-menu-item>
           </el-submenu>
         </el-menu>
 	</div>

@@ -12,6 +12,7 @@ Vue.use(ElementUI)
 import home from './components/default.vue'
 import appState from './components/appState.vue'
 import createTc from './components/createTestCase.vue'
+import api from './components/api.vue'
 import test from './components/test.vue'
 
 const router = new VueRouter({
@@ -29,6 +30,10 @@ const router = new VueRouter({
     {
       path: '/createTC',
       component: createTc
+    },
+    {
+      path: '/apiInfo',
+      component: api
     },
     {
       path: '/test',

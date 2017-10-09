@@ -63,12 +63,4 @@ a {
   margin:20px 5px 20px 5px;
   padding: 20px 5px 10px 5px;
 }
-.gbox {
-  margin:10px 5px 10px 5px;
-  padding: 20px 5px 10px 5px;
-  box-shadow: 1px 1px 1px #ffffff;
-  border: 1px solid #bbb;
-  border-radius: 4px;
-}
-
 </style>

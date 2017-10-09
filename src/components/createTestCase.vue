@@ -195,12 +195,19 @@
             // 获取所有TC
             this.$http.get('http://localhost:9999/tc/').then((response) => {
                 console.log("begin load TestCase info");
-                var tcListInfo= response.data.responseBody;
-                var i;
-                for (i in tcListInfo){
-                    this.tcInfoList.push(tcListInfo[i]);
+                let resultCode = response.data.resultCode;
+                if(resultCode != "S0001"){
+                    let resultMsg = response.data.resultMessage;
+                    console.log("end load TestCase info with : "+resultMsg);
+                    this.showToast(resultMsg,"warning");
+                }else{
+                    let tcListInfo = response.data.responseBody;
+                    for ( let i in tcListInfo){
+                        this.tcInfoList.push(tcListInfo[i]);
+                    }
+                    console.log("end load TestCase info");
                 }
-                console.log("end load TestCase info");
+
             }).catch(function(response) {
                 console.log(response)
             });
